@@ -32,5 +32,5 @@ jobs:
       - name: Check add Contacts
         run: 'if grep -q "@Test checkAddContacts()" /local/jenkinsHome/jobs/job/builds/1/log;  then exit 0; else exit 1; fi'
       - name: Final Step
-        run: echo 'Success'
+        run: echo 'Successsss'
     
