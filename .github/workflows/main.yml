@@ -16,6 +16,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permissions: "administration:write, contents:write"
       - name: Checks-out your repository
         uses: actions/checkout@v6
       - name: Run Jenkinsfile
